@@ -1,4 +1,5 @@
 import time
+import os
 clear = lambda: os.system('cls')
 #Startet Programm
 print("Willkommen zu Pyfight")
