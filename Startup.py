@@ -1,6 +1,7 @@
 import time
 import os
 clear = lambda: os.system('cls')
+sleep = lambda: time.sleep()
 #Startet Programm
 print("Willkommen zu Pyfight")
 sleep(1)
