@@ -11,3 +11,7 @@ geschlecht = ("###")
 import time
 import os
 clear = lambda: os.system('cls')
+print("Name:", name)
+print("Geschlecht:", geschlecht)
+sure = input("Stimmt das so? (J/N)")
+    if sure == (""):
