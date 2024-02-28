@@ -23,3 +23,4 @@ if sure == ("N"):
     exit("Du bist nicht einverstanden")
 time.sleep(2)
 print("User aktiv:", visitenkarte)
+clear()
