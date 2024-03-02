@@ -91,7 +91,7 @@ if ulti == ("C"):
 else:
     clear()
     print("Da du keine Ultimative Kraft ausgewählt hast, musst du das Programm Neustarten.")
-    time.seep(5)
+    time.sleep(5)
     clear()
     print("Das Programm schließt automatisch in 3 Sekunden")
     time.sleep(1)
