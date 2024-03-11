@@ -1,0 +1,77 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(53, 53, 75);
+    height: 150vh;
+}
+
+
+.task {
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 5px 0px 5px 0px;
+    width: 80%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(250, 250, 250, 0.6);
+    backdrop-filter: blur(4px);
+}
+.task button {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    color: rgb(255, 230, 0);
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: 0 0 3px transparent;
+    border-width: 2px;
+    border-style: outset;
+    border-radius: 5px;
+    padding: 7px;
+    margin-left: 7px;
+    animation: forwards;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.task button:hover {
+    box-shadow: 0 0 3px white;
+    background-color: rgba(250, 250, 250, 0.2);
+    color: black;
+}
+.inhalt {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+.inhalt h1 {
+    font-family: 'Nabla';
+    font-size: 100px;
+    transition: 0.2s;
+    position: fixed;
+    padding: 10px;
+    background-color: rgba(250, 250, 250, 0.6);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 5px white;
+}
+.inhalt video {
+    position: fixed;
+  left: 0;
+  top: -80px;
+  min-width: 50%;
+  min-height: 50%;
+  max-width: 200%;
+max-height: 200%;
+height: max-content;
+width: max-content;
+backdrop-filter: brightness(4px);
+}
+@media(max-width: 800px) {
+    .task {
+        justify-content: center;
+    }
+    }

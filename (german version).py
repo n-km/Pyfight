@@ -82,10 +82,38 @@ print("A - Feuer (Ein Feuerstrahl, der für 10 Sekunden lang pro Sekunde 5 Schad
 print("B - Wasser (Ein Wasserstrahl, der 30 Schaden verursacht, senkt Angriffe von einer Gegnerischen Karte um 10 Schaden)")
 print("C - Gift (Ein Biss, wo jedes Mal, wenn der Gegner angegriffen hat, verliert seine Karte 10 Lebespunkte)")
 ulti = input("Geben Sie (A), (B) oder (C) an:")
-if ulti == ("C"):
+if ulti == ("A"):
     print("Deine Ultimative Kraft ist Feuer.")
+else:
+    clear()
+    print("Da du keine Ultimative Kraft ausgewählt hast, musst du das Programm Neustarten.")
+    time.sleep(5)
+    clear()
+    print("Das Programm schließt automatisch in 3 Sekunden")
+    time.sleep(1)
+    print("Das Programm schließt automatisch in 2 Sekunden")
+    time.sleep(1)
+    print("Das Programm schließt automatisch in 1 Sekunden")
+    time.sleep(1)
+    print("Das Programm schließt automatisch in 0 Sekunden")
+    time.sleep(0.3)
+    exit("Keine Ultimative Kraft ausgewählt")
 if ulti == ("B"):
     print("Deine Ultimative Kraft ist Wasser.")
+else:
+    clear()
+    print("Da du keine Ultimative Kraft ausgewählt hast, musst du das Programm Neustarten.")
+    time.sleep(5)
+    clear()
+    print("Das Programm schließt automatisch in 3 Sekunden")
+    time.sleep(1)
+    print("Das Programm schließt automatisch in 2 Sekunden")
+    time.sleep(1)
+    print("Das Programm schließt automatisch in 1 Sekunden")
+    time.sleep(1)
+    print("Das Programm schließt automatisch in 0 Sekunden")
+    time.sleep(0.3)
+    exit("Keine Ultimative Kraft ausgewählt")
 if ulti == ("C"):
     print("Deine Ultimative Kraft ist Gift.")
 else:
