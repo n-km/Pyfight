@@ -4,7 +4,7 @@ html {
 
 body {
     background-color: rgb(53, 53, 75);
-    height: 150vh;
+    height: max-content;
 }
 
 
@@ -23,15 +23,16 @@ body {
     backdrop-filter: blur(4px);
 }
 .task button {
-    font-family: 'Montserrat';
+    font-family: 'Permanent Marker';
+    font-weight: 200;
     font-size: 20px;
-    color: rgb(255, 230, 0);
+    color: black;
     background-color: transparent;
-    border-color: transparent;
+    border-color: black;
     box-shadow: 0 0 3px transparent;
-    border-width: 2px;
-    border-style: outset;
-    border-radius: 5px;
+    border-width: 0px 0px 2px 0px;
+    border-style: inset;
+    border-radius: 0px;
     padding: 7px;
     margin-left: 7px;
     animation: forwards;
@@ -41,7 +42,9 @@ body {
 .task button:hover {
     box-shadow: 0 0 3px white;
     background-color: rgba(250, 250, 250, 0.2);
-    color: black;
+    color: rgb(255, 230, 0);
+    border-radius: 5px;
+    border-color: rgb(255, 230, 0);
 }
 .inhalt {
     margin-top: 70px;
@@ -52,11 +55,9 @@ body {
     font-family: 'Nabla';
     font-size: 100px;
     transition: 0.2s;
-    position: fixed;
-    padding: 10px;
-    background-color: rgba(250, 250, 250, 0.6);
-    backdrop-filter: blur(10px);
-    box-shadow: 0 0 5px white;
+    position:relative;
+    text-shadow: 0 0 3px white;
+    margin-top: 300px;
 }
 .inhalt video {
     position: fixed;
@@ -75,3 +76,39 @@ backdrop-filter: brightness(4px);
         justify-content: center;
     }
     }
+
+
+#OPEN-SOURCE {
+    font-family: 'Permanent Marker';
+    color: white;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 70vh;
+}
+#DOWNLOAD {
+    font-family: 'Permanent Marker';
+    color: white;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 70vh;
+}
+#DOWNLOAD button {
+    padding: 15px;
+    font-size: 60px;
+    border-radius: 15px;
+    border-width: 2px;
+    border-style: double;
+    border-color: white;
+    font-family: 'Nabla';
+    background-color: transparent;
+    transition: 0.2s;
+    cursor: pointer;
+}
+#DOWNLOAD button:hover {
+    background-color: rgba(255, 255, 255, 0.37);
+    box-shadow: 0 0 5px white;
+}
