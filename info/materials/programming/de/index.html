@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        
+        
+        <div class="content">
+            <textarea name="" id="CODE" readonly>
+            </textarea>
+            <br>
+            <a href="https://github.com/n-km/Pyfight/blob/main/(german%20version).py">Download</a>
+        </div>
+
+
+
+
+        <div class="task"><form action=""><button>Back</button></form></div>
+        
+            <script>
+    
+    window.onload = function() {
+        fetch('https://raw.githubusercontent.com/n-km/Pyfight/main/(german%20version).py') 
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('CODE').value = data;
+            });
+    }
+            </script>
+        
+    </body>
+</html>
