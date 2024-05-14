@@ -119,3 +119,18 @@ html {
     box-shadow: 0 0 3px white;
     padding: 15px;
   }
+  #news button {
+    background-color: white;
+    color: black;
+    padding: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+    border-width: 0px;
+    border-style: double;
+    border-radius: 5px;
+    margin: 5px;
+  } 
+  #news button:hover {
+    background-color: #4badfd;
+    color: white;
+  }
