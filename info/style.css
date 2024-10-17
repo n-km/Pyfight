@@ -131,6 +131,6 @@ html {
     margin: 5px;
   } 
   #news button:hover {
-    background-color: #4badfd;
+    background-color: black;
     color: white;
   }
